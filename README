@@ -1,0 +1,18 @@
+/**
+ * objectCSS plugin for jQuery
+ * v1.0
+ * Highlight your abstracted Objects.
+ *
+ * By Bill Keler, ghettocooler.net
+ *
+ */
+
+/**
+ * Usage:
+ *
+ * From JavaScript, use:
+ *     $(<select>).objectCSS({depth: <x>});
+ *     where:
+ *       <select> is the DOM node selector, e.g. ".media"
+ *       <x> is 0, 1 or 2, representing the level of the objects children that you'd like visualized
+ */
