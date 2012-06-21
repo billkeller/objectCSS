@@ -1,8 +1,10 @@
 /**
  * objectCSS plugin for jQuery
  * v1.0
- * Highlight your abstracted Objects.
+ * Allows you to expose the HTML structure of your OOCSS.
  *
+ * Documentation: http://billkeller.github.com/objectCSS/
+ * 
  * By Bill Keler, ghettocooler.net
  *
  */
