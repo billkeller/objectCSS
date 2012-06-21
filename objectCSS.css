@@ -1,0 +1,49 @@
+.css-obj {
+	background-color: #fff;
+	font: normal 10px consolas, Arial, sans-serif;
+	color: #000 !important;
+	}
+	/* your main object */
+	.css-obj-child-parent {
+		outline: 1px dotted green;
+		position: relative;
+		}
+		.css-obj-parent {
+			position: absolute;
+			top: 0;
+			right: 0;
+			outline-style: none;
+			outline: 1px dotted red !important;
+			padding: 2px 8px;
+			z-index: 1;
+			}
+			.css-obj-parent > * {
+				position: relative;
+				}
+				
+			.css-obj-child,
+			.css-obj-child2 {
+				position: absolute;
+				top: 0;
+				left: 0;
+				background-color: #fff;
+				font: normal 10px consolas, Arial, sans-serif;
+				outline: 1px dotted green !important;
+				padding: 2px 8px;
+				z-index: 1;
+				}
+				.css-obj-child2-parent:hover {
+					position: relative;
+					outline: 1px dotted blue !important;
+					}
+	
+				.css-obj-child2 {
+					display: none;
+					}
+					
+				.css-obj-child2-parent:hover > .css-obj-child2 {
+					left: auto;
+					right: 0;
+					outline: 1px dotted blue !important;
+					display: block;
+					}
